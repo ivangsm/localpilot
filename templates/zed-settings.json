@@ -1,0 +1,25 @@
+{
+  "show_edit_predictions": true,
+  "edit_predictions": {
+    "provider": "ollama",
+    "mode": "eager",
+    "ollama": {
+      "model": "qwen2.5-coder:1.5b",
+      "api_url": "http://localhost:11434",
+      "prompt_format": "qwen",
+      "max_output_tokens": 64
+    }
+  },
+  "language_models": {
+    "ollama": {
+      "api_url": "http://localhost:11434"
+    }
+  },
+  "assistant": {
+    "version": "2",
+    "default_model": {
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b"
+    }
+  }
+}
