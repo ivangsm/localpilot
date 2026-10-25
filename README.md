@@ -137,12 +137,9 @@ El script inyecta la configuración en `~/.config/zed/settings.json` (o `%APPDAT
 
 ---
 
-## 💡 Buenas Prácticas y Solución de Problemas
+## 💡 Solución de Problemas
 
-### 1. ¿Por qué el autocompletado sugiere TypeScript/Angular en un archivo Go?
-En Go, **todo archivo debe comenzar con la declaración del paquete** (ej. `package main`). Si comienzas a escribir directamente `import ` en la primera línea de un archivo vacío, el modelo no tiene contexto sintáctico de Go y asumirá que es TypeScript o React (el patrón más común en la web). Siempre declara `package <nombre>` primero.
-
-### 2. Comprobar que Ollama esté corriendo:
+### 1. Comprobar que Ollama esté corriendo:
 ```bash
 curl http://localhost:11434/api/tags
 ```
@@ -151,11 +148,11 @@ Si no responde:
 * **Linux:** `sudo systemctl restart ollama`
 * **Windows:** Abre la aplicación Ollama desde el menú inicio o ejecuta `ollama serve`.
 
-### 3. Ver modelos cargados en memoria y consumo de GPU:
+### 2. Ver modelos cargados en memoria y consumo de GPU:
 ```bash
 ollama ps
 ```
-Te mostrará los modelos cargados en RAM/VRAM y qué porcentaje se ejecuta en GPU.
+Te mostrará los modelos cargados en RAM/VRAM y qué porcentaje se ejecuta en la GPU.
 
 ---
 

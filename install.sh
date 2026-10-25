@@ -346,7 +346,3 @@ echo -e "  • ${BOLD}Tab${NC}:                   Aceptar sugerencia de autocomp
 echo -e "  • ${BOLD}Ctrl + Enter${NC}:          Abrir el Asistente en línea para refactorizar código."
 echo -e "  • ${BOLD}Cmd + R${NC} (Ctrl+R):       Abrir panel de chat lateral del proyecto."
 echo ""
-echo -e "${YELLOW}Nota para Go y otros lenguajes:${NC}"
-echo -e "  Recuerda iniciar tus archivos Go con 'package <nombre>' para que el modelo"
-echo -e "  reconozca la sintaxis del lenguaje inmediatamente."
-echo ""
