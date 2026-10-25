@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Local AI Assistant Installer (Linux & macOS)
+# LocalPilot Installer (Linux & macOS)
 # Installs Ollama, downloads optimized coding models (Qwen2.5-Coder),
 # and automatically configures Zed Editor and/or Continue.dev.
 # ==============================================================================
@@ -21,14 +21,14 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo -e "${CYAN}${BOLD}"
 cat << 'EOF'
-  _                     _       _    ___   ____      _             
- | |    ___   ___  __ _| |     / \  |_ _| / ___|___ | | _____ _ __ 
- | |   / _ \ / __|/ _` | |    / _ \  | | | |   / _ \| |/ / _ \ '__|
- | |__| (_) | (__| (_| | |   / ___ \ | | | |__| (_) |   <  __/ |   
- |_____\___/ \___|\__,_|_|  /_/   \_\___| \____\___/|_|\_\___|_|   
+  _                     _ ____  _ _       _   
+ | |    ___   ___ __ _| |  _ \(_) | ___ | |_ 
+ | |   / _ \ / __/ _` | | |_) | | |/ _ \| __|
+ | |__| (_) | (_| (_| | |  __/| | | (_) | |_ 
+ |_____\___/ \___\__,_|_|_|   |_|_|\___/ \__|
 EOF
 echo -e "${NC}"
-echo -e "${BOLD}Instalador interactivo de asistente de código local (100% privado y sin límites)${NC}\n"
+echo -e "${BOLD}LocalPilot — Tu asistente de código local, privado y sin límites${NC}\n"
 
 # ------------------------------------------------------------------------------
 # 1. DETECCIÓN DEL SISTEMA Y HARDWARE

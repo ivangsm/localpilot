@@ -1,5 +1,5 @@
 # ==============================================================================
-# Local AI Assistant Installer (Windows 10/11 PowerShell)
+# LocalPilot Installer (Windows 10/11 PowerShell)
 # Installs Ollama, downloads optimized coding models (Qwen2.5-Coder),
 # and automatically configures Zed Editor and/or Continue.dev.
 # ==============================================================================
@@ -10,15 +10,15 @@ param()
 $ErrorActionPreference = "Stop"
 
 Write-Host @"
-  _                     _       _    ___   ____      _             
- | |    ___   ___  __ _| |     / \  |_ _| / ___|___ | | _____ _ __ 
- | |   / _ \ / __|/ _` | |    / _ \  | | | |   / _ \| |/ / _ \ '__|
- | |__| (_) | (__| (_| | |   / ___ \ | | | |__| (_) |   <  __/ |   
- |_____\___/ \___|\__,_|_|  /_/   \_\___| \____\___/|_|\_\___|_|   
+  _                     _ ____  _ _       _   
+ | |    ___   ___ __ _| |  _ \(_) | ___ | |_ 
+ | |   / _ \ / __/ _` | | |_) | | |/ _ \| __|
+ | |__| (_) | (_| (_| | |  __/| | | (_) | |_ 
+ |_____\___/ \___\__,_|_|_|   |_|_|\___/ \__|
 "@ -ForegroundColor Cyan
 
-Write-Host "Instalador interactivo de asistente de código local para Windows" -ForegroundColor White
-Write-Host "================================================================`n"
+Write-Host "LocalPilot — Tu asistente de código local, privado y sin límites (Windows)" -ForegroundColor White
+Write-Host "==========================================================================`n"
 
 # ------------------------------------------------------------------------------
 # 1. DETECCIÓN DE HARDWARE

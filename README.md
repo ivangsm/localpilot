@@ -1,4 +1,4 @@
-# 🚀 Local AI Coding Assistant (Zed & Continue)
+# 🚀 LocalPilot — Tu Copilot Local, Privado y Sin Límites (Zed & Continue)
 
 Instalador interactivo y multiplataforma para desplegar un entorno de asistencia de código con Inteligencia Artificial **100% local, privado y sin límites**, equivalente a GitHub Copilot o Tabnine Pro.
 
@@ -53,8 +53,8 @@ La memoria RAM/VRAM disponible es el factor determinante para la fluidez y veloc
 Clona este repositorio y ejecuta el script interactivo:
 
 ```bash
-git clone https://github.com/tu-usuario/local-ai-setup.git
-cd local-ai-setup
+git clone https://github.com/tu-usuario/localpilot.git
+cd localpilot
 ./install.sh
 ```
 
@@ -73,8 +73,8 @@ El script detectará automáticamente:
 Abre **PowerShell** como administrador o usuario normal y ejecuta:
 
 ```powershell
-git clone https://github.com/tu-usuario/local-ai-setup.git
-cd local-ai-setup
+git clone https://github.com/tu-usuario/localpilot.git
+cd localpilot
 Set-ExecutionPolicy RemoteSigned -Scope Process
 .\install.ps1
 ```
